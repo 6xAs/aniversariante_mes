@@ -57,7 +57,7 @@ st.markdown(
 st.markdown(
     """
      <div class="center">
-        <img src="asset/im"alt="Imagem arredondada" class="round-img">
+        <img src="https://via.placeholder.com/300"alt="Imagem arredondada" class="round-img">
         <div class="titles">
             <h4>Subtítulo H3</h4>
             <h1>Título Principal H1</h1>
