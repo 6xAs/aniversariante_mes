@@ -1,16 +1,15 @@
 import streamlit as st
+import pandas as pd
 import os
 import base64
 import time
 import streamlit.components.v1 as components
 
 
-
-
 ### Configuração da página
 st.set_page_config(
     page_title="Teste Imagem Arredondada",
-    page_icon="🎈",
+    page_icon="🎉",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
@@ -20,10 +19,10 @@ st.set_page_config(
 if 'st_balloons' not in st.session_state:
     # repete essa sessão a cada 10 segundos
     query_params = st.query_params
-    page = query_params.get("page", ["main"])[0]  # Página padrão é "main"
+    page = query_params.get("page", ["1_🎉main"])[0]  # Página padrão é "1_🎉main"
 
-    # Verifica se está na página 'main' e aplica o meta-refresh
-    if page == "main":
+    # Verifica se está na página '1_🎉main' e aplica o meta-refresh
+    if page == "1_🎉main":
         st.markdown(
             """
             <meta http-equiv="refresh" content="100">
@@ -32,10 +31,7 @@ if 'st_balloons' not in st.session_state:
         )
     st.session_state.st_balloons = st.balloons()
     
-    
-    
-    
-    
+
     
     # Estilo CSS para centralizar e arredondar a imagem
     st.markdown(
