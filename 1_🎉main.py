@@ -89,9 +89,10 @@ st.markdown(
         margin: 5px;
     }}
     .titles h1 {{
+       
         padding: 5px;
         color: #FF8C00;
-        font-size: 3em; /* Ajuste o tamanho do h1 se necessário */
+        font-size: 5em; /* Ajuste o tamanho do h1 se necessário */
     }}
     .titles h5 {{
         margin: 5px;
@@ -153,3 +154,5 @@ def exibir_aniversariantes(df):
 
 # Chamar a função para exibir aniversariantes
 exibir_aniversariantes(df)
+
+
