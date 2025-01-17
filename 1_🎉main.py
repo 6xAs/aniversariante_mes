@@ -76,10 +76,15 @@ st.markdown(
         z-index: 2;
     }}
     .round-img {{
+        border: 10px solid #DAA520;
+        border-radius: 150px;
+        width: 800px;
+        background-position: center;
+        
         border-radius: 50%;
-        width: 400px; /* Ajuste o tamanho da imagem */
+        width: 400px; 
         height: 400px;
-        object-fit: cover; /* Garante que a imagem fique bem ajustada */
+        object-fit: cover; 
     }}
     .titles {{
         text-align: center;
@@ -91,12 +96,13 @@ st.markdown(
     .titles h1 {{
        
         padding: 5px;
-        color: #FF8C00;
-        font-size: 5em; /* Ajuste o tamanho do h1 se necessário */
+        color: #DAA520;
+        font-size: 5em; 
     }}
     .titles h5 {{
+        font-size: 2.5em; 
         margin: 5px;
-        color: gray; /* Ajuste a cor do h5 */
+        color: gray; 
     }}
     </style>
     """,
