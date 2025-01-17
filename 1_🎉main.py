@@ -7,8 +7,11 @@ from PIL import Image
 from datetime import datetime
 import locale
 
-# Definir a localidade para português Brasil
-locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+# Tentar definir a localidade para português Brasil
+try:
+    locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+except locale.Error:
+    locale.setlocale(locale.LC_TIME, 'pt_BR')
 
 ### Configuração da página
 st.set_page_config(
