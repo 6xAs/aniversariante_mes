@@ -1,4 +1,4 @@
-# Teste Imagem Arredondada 🎉
+# Painel de Aniversariantes do Mês (Data) 🎉
 
 Esta aplicação Streamlit exibe uma imagem principal com bordas arredondadas e estilizadas, além de carregar e exibir dados de aniversariantes do mês a partir de um arquivo CSV.
 
